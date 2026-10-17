@@ -1,35 +1,29 @@
-# EduTrack — Student Management System
+# 🎓 EduTrack — Student Management System
 
-A simple student management web application built using HTML, CSS, and JavaScript.
+**A simple and interactive web application to manage student records, attendance, marks, fees, and academic performance.**
 
-## Features
-- Student registration and management
-- Attendance tracking
-- Marks and grades management
-- Course and department management
-- Fee tracking
-- Reports and CSV export
-- Dashboard with dark mode
-- LocalStorage data saving
+## 🌐 Live Demo
+👉 https://anjanabejjanki07.github.io/EduTrack-Student-Management-System/
 
-## Technologies Used
-- HTML5
-- CSS3
-- JavaScript
-- LocalStorage
-- GitHub Pages
+## ✨ Features
+- 👨‍🎓 **Student Management** — Add, edit, delete, and search students.
+- 📅 **Attendance Tracking** — Record and monitor attendance.
+- 📊 **Academic Performance** — Manage marks and grades.
+- 📚 **Course Management** — Organize courses and departments.
+- 💰 **Fee Management** — Track student fees.
+- 📈 **Reports** — Generate reports and export CSV files.
+- 🌙 **Dark Mode** — Switch between light and dark themes.
+- 💾 **Data Storage** — Save data using browser LocalStorage.
 
-## Live Demo
-https://anjanabejjanki07.github.io/EduTrack-Student-Management-System/
+## 🛠️ Technologies Used
+- **HTML5**
+- **CSS3**
+- **JavaScript**
+- **LocalStorage**
+- **GitHub Pages**
 
-## Run Locally
-1. Clone this repository.
-2. Open `index.html` in your browser.
+## 🚀 Run Locally
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/anjanabejjanki07/EduTrack-Student-Management-System.git
 
-## Data Storage
-Student data is stored in the browser's LocalStorage. Data is not automatically shared between users or devices.
-
-## Author
-**Anjana Bejjanki**
-
-GitHub: https://github.com/anjanabejjanki07
