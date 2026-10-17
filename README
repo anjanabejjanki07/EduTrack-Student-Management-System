@@ -1,29 +1,258 @@
 # 🎓 EduTrack — Student Management System
 
-**A simple and interactive web application to manage student records, attendance, marks, fees, and academic performance.**
+EduTrack is a web-based Student Management System designed to simplify student record management and academic administration. It provides a user-friendly dashboard to manage students, track attendance, monitor academic performance, manage fees, and generate reports.
 
-## 🌐 Live Demo
-👉 https://anjanabejjanki07.github.io/EduTrack-Student-Management-System/
+🔗 **Live Demo:** https://anjanabejjanki07.github.io/EduTrack-Student-Management-System/
+
+---
+
+## 📌 Table of Contents
+
+- About the Project
+- Features
+- Technologies Used
+- Project Structure
+- Getting Started
+- How to Use
+- Data Storage
+- Deployment
+- Future Enhancements
+- Author
+
+---
+
+## 📖 About the Project
+
+Managing student information manually can be time-consuming and difficult to maintain. EduTrack provides a centralized web interface to organize student records and academic information.
+
+The system includes student management, attendance tracking, academic performance monitoring, course and department management, fee tracking, notifications, and report exports.
+
+The application is built using HTML, CSS, and vanilla JavaScript. It runs directly in a web browser without requiring a backend server.
+
+---
 
 ## ✨ Features
-- 👨‍🎓 **Student Management** — Add, edit, delete, and search students.
-- 📅 **Attendance Tracking** — Record and monitor attendance.
-- 📊 **Academic Performance** — Manage marks and grades.
-- 📚 **Course Management** — Organize courses and departments.
-- 💰 **Fee Management** — Track student fees.
-- 📈 **Reports** — Generate reports and export CSV files.
-- 🌙 **Dark Mode** — Switch between light and dark themes.
-- 💾 **Data Storage** — Save data using browser LocalStorage.
+
+### 📊 1. Dashboard
+- View total student statistics.
+- Track active and graduated students.
+- Monitor average GPA.
+- View attendance statistics.
+- Visualize students by course.
+- View student status distribution.
+- Access quick actions for common tasks.
+- Export student records to CSV.
+
+### 👨‍🎓 2. Student Management
+- Add new student records.
+- Edit existing student details.
+- Delete student records.
+- Search students by name, email, or ID.
+- Filter students by course and status.
+- Sort records by name, GPA, or newest entries.
+- View individual student profiles.
+- Import student records using CSV files.
+- Download a sample CSV template.
+
+### 🗓️ 3. Attendance Management
+- Record attendance for students.
+- Organize attendance by course and date.
+- Track attendance percentages.
+- Configure the low-attendance warning threshold.
+- Identify students with low attendance.
+- View attendance summaries.
+- Export attendance records to CSV.
+
+### 📝 4. Academic Performance
+- Record internal assessment marks.
+- Record assignment marks.
+- Record examination marks.
+- Calculate total marks and percentages.
+- Assign grades based on performance.
+- Identify students who need academic support.
+- Edit and manage academic records.
+- Export marks to CSV.
+
+### 🏫 5. Courses and Departments
+- Add and manage courses.
+- Maintain course codes.
+- Associate courses with departments.
+- Specify course duration.
+- Add and manage departments.
+- Record department heads.
+
+### 💳 6. Fee Management
+- Create student fee records.
+- Record tuition, examination, library, transport, and hostel fees.
+- Track total fee amounts.
+- Record payments received.
+- Calculate pending balances.
+- Record payment dates and methods.
+- View fee summaries.
+- Export fee records to CSV.
+
+### 🔔 7. Notifications
+- Create announcements and reminders.
+- Set the intended audience.
+- Publish messages for students, faculty, or everyone.
+- View published notifications.
+
+### 📄 8. Reports
+- Export student records.
+- Export attendance records.
+- Export academic performance records.
+- Export fee records.
+- View summary counts for reports.
+
+### ⚙️ 9. Settings
+- Configure college details.
+- Update college contact information.
+- Set the low-attendance threshold.
+- Export an application data backup.
+- Clear application data when required.
+
+### 🎨 10. User Interface
+- Clean and modern dashboard.
+- Responsive layout for different screen sizes.
+- Light and dark theme support.
+- Interactive navigation.
+- Form validation.
+- Confirmation dialogs for important actions.
+- Notifications for user actions.
+- Accessibility features, including labels and keyboard-friendly controls.
+
+---
 
 ## 🛠️ Technologies Used
-- **HTML5**
-- **CSS3**
-- **JavaScript**
-- **LocalStorage**
-- **GitHub Pages**
 
-## 🚀 Run Locally
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/anjanabejjanki07/EduTrack-Student-Management-System.git
+| Technology | Purpose |
+|---|---|
+| HTML5 | Structures the application interface |
+| CSS3 | Styling, layout, themes, and responsive design |
+| JavaScript | Application logic and interactive features |
+| Browser Local Storage | Stores application records locally |
+| CSV | Importing and exporting records |
+| Git and GitHub | Version control and project hosting |
+| GitHub Pages | Deploying the website |
+
+---
+
+## 📁 Project Structure
+
+```text
+EduTrack-Student-Management-System/
+│
+├── index.html
+├── style.css
+├── app.js
+├── modules.js
+├── settings.json
+├── .gitignore
+└── README.md
+```
+
+---
+
+## 🚀 Getting Started
+
+### Option 1: Use the Live Website
+
+Open the deployed application:
+
+**https://anjanabejjanki07.github.io/EduTrack-Student-Management-System/**
+
+No installation is required.
+
+### Option 2: Run Locally
+
+**Step 1: Clone the repository**
+
+```bash
+git clone https://github.com/anjanabejjanki07/EduTrack-Student-Management-System.git
+```
+
+**Step 2: Open the project folder**
+
+```bash
+cd EduTrack-Student-Management-System
+```
+
+**Step 3: Run the application**
+
+Open `index.html` in your web browser.
+
+Alternatively, open the folder in Visual Studio Code and use the Live Server extension.
+
+---
+
+## 📖 How to Use
+
+1. Open the application.
+2. Navigate through the dashboard using the sidebar.
+3. Add student records with the required details.
+4. Manage courses and departments.
+5. Record student attendance.
+6. Enter marks to monitor academic performance.
+7. Record fee payments and pending balances.
+8. Publish notifications.
+9. Generate reports by exporting records to CSV.
+10. Configure application settings as needed.
+
+---
+
+## 💾 Data Storage
+
+EduTrack uses browser Local Storage to store application data.
+
+- Records can remain available when the same browser is reopened.
+- Data is stored locally in the browser.
+- Data is not automatically synchronized between different browsers or devices.
+- Clearing browser storage may remove application records.
+- Export backups regularly to help preserve important data.
+
+**Note:** This project is a frontend application. It does not currently provide centralized database storage, server-side authentication, or automatic multi-user synchronization.
+
+Avoid entering real, sensitive student information into the public demo.
+
+---
+
+## 🌐 Deployment
+
+EduTrack is deployed using GitHub Pages.
+
+**Deployment platform:** GitHub Pages
+
+**Live URL:** https://anjanabejjanki07.github.io/EduTrack-Student-Management-System/
+
+To deploy your own changes:
+
+1. Push the updated files to the `main` branch.
+2. Open the repository's **Settings**.
+3. Select **Pages**.
+4. Configure the source as **Deploy from a branch**.
+5. Select `main` and the root folder.
+6. Save and wait for deployment to complete.
+
+---
+
+## 🔮 Future Enhancements
+
+- Backend integration using Flask, Django, or Node.js.
+- Database integration using MySQL or PostgreSQL.
+- Secure login and role-based access for administrators, faculty, and students.
+- Centralized storage and synchronization across devices.
+- Email and SMS notifications.
+- PDF report generation.
+- Advanced academic analytics and visualizations.
+- Automated fee reminders.
+- Student self-service portal.
+- Cloud backup and recovery.
+
+---
+
+## 👩‍💻 Author
+
+**Anjana Bejjanki**
+
+GitHub: https://github.com/anjanabejjanki07
 
