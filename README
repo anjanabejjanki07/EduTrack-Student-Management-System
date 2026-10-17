@@ -1,0 +1,35 @@
+# EduTrack — Student Management System
+
+A simple student management web application built using HTML, CSS, and JavaScript.
+
+## Features
+- Student registration and management
+- Attendance tracking
+- Marks and grades management
+- Course and department management
+- Fee tracking
+- Reports and CSV export
+- Dashboard with dark mode
+- LocalStorage data saving
+
+## Technologies Used
+- HTML5
+- CSS3
+- JavaScript
+- LocalStorage
+- GitHub Pages
+
+## Live Demo
+https://anjanabejjanki07.github.io/EduTrack-Student-Management-System/
+
+## Run Locally
+1. Clone this repository.
+2. Open `index.html` in your browser.
+
+## Data Storage
+Student data is stored in the browser's LocalStorage. Data is not automatically shared between users or devices.
+
+## Author
+**Anjana Bejjanki**
+
+GitHub: https://github.com/anjanabejjanki07
